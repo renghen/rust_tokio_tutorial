@@ -1,0 +1,10 @@
+[package]
+name = "rust_tokio_tutorial"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = { version = "1.0.79",features = ["std"] }
+tokio = { version = "1.35.1", features = ["rt-multi-thread", "macros", "tracing", "time"] }
